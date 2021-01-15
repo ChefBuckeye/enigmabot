@@ -13,7 +13,7 @@ from app import encrypt
 #Config for reddit things
 bots = ["theenigmabot","UtdStatBot"] #Bot Ignore list, best to prevent spamming any bots and read actual posts
 cache = []
-wordLib =["enigma","code","key","password","secretive","quiet","secret","confidential","classified","undisclosed", "untold","unknown","top secret","veiled","cryptic","obscure","covert","on the q.t.","private","dark secret","shrouded","decrypted","encrypted","encryption","decryption"]
+wordLib =["enigma","key","password","secretive","quiet","secret","confidential","classified","undisclosed", "untold","unknown","top secret","veiled","cryptic","obscure","covert","on the q.t.","private","dark secret","shrouded","decrypted","encrypted","encryption","decryption"]
 reddit = api.reddit
 subreddit = reddit.subreddit("testingground4bots")
 hot = subreddit.hot(limit=5)
