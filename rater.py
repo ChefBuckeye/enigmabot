@@ -7,3 +7,4 @@ def checkMyComments():
     for comment in api.reddit.redditor(api.username).comments.new():
         if comment.score < -1:
             comment.delete()
+            print("Someone didn't like my comment, so I have deleted it.")

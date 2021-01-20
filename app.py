@@ -9,7 +9,8 @@ machine = EnigmaMachine.from_key_sheet(
        reflector='B',
        ring_settings='21 15 16',
        plugboard_settings='AC LS BQ WN MY UV FJ PZ TR OK')
-
+#Decent, a better method for selecting varying rotors
+#and setting the display to something less predictable.
 def encrypt(body):
    #text
    machine.set_display('GKW')

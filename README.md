@@ -1,2 +1,2 @@
-# enigmabot
- the enigma bot
+#Reddit Bot with API config and setup
+API is practically set to go, you just need to fill in the api.py table with API credentials, then running core.py will run the bot. Bot has a few bugs so just be aware.

@@ -5,10 +5,11 @@
 import praw
 #Login Details
 
-version = "0.1.0a.1"
+version = "0.1.0.2a"
 http_limit = 30
 #id = ["client id","client secret","username","password","user agent"]
-id = [] #Use above ID for actual production (so karma is alone)
+id = ["1w1C7IaxLisUYQ","N8lYc84RstIwsZ1TIGVGs4hyMr8Hrw","theenigmabot","x8bwA7d2-qIoDEXC_aFoIdYnTxtugwsgQYXh2AHS8os=","Enigma Encryption Bot 0.1.2 by /u/ChefBuckeyeRBLX"]
+#Use above ID for actual production (so karma is alone)
 reddit = praw.Reddit(client_id = id[0],
                     client_secret = id[1],
                     username = id[2],
